@@ -1,0 +1,16 @@
+services:
+  redis:
+    image: redis:6.2
+    ports:
+      - "6379:6379"
+
+  app:
+    build: .
+    ports:
+      - "8080:8080"
+    depends_on:
+      - redis
+    environment:
+      - REDIS_ADDR=redis:6379
+      - DEFAULT_LIMIT=10
+      - BLOCK_TIME=300
