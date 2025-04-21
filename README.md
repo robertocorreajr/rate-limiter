@@ -114,4 +114,4 @@ Você pode facilmente substituir o backend por outro adaptando a interface `Stor
 
 ---
 
-Feito com 💻 por [Roberto Corrêa](https://github.com/robertocorreajr)
+Feito por [Roberto Corrêa](https://github.com/robertocorreajr)
