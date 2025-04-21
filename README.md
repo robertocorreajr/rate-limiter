@@ -30,8 +30,6 @@ BLOCK_TIME=300
 REDIS_ADDR=redis:6379
 ```
 
-> **Dica:** Nunca versionar o `.env`. Um `.env.example` pode ser criado como modelo.
-
 ### 3. Suba o ambiente com Docker
 
 ```bash
